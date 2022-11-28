@@ -1,7 +1,6 @@
 import { FormContainer } from "./styles";
 import { useFormContext } from 'react-hook-form'
 import Placeholder from '../../../../assets/Placeholder.svg'
-import { IMaskInput } from 'react-imask';
 
 export function Address() {
   const { register } = useFormContext()
