@@ -1,5 +1,5 @@
 import { DeliverySection } from "./styles";
-import moto from './../../assets/illustration.svg'
+import moto from '../../../src/assets/illustration.svg'
 import pinIcon from './../../assets/pinIcon.svg'
 import clockIcon from './../../assets/clockIcon.svg'
 import dollarIcon from './../../assets/dollarIcon.svg'
@@ -8,7 +8,7 @@ import { CycleContext } from "../../context/context";
 
 export function Delivery() {
   const { addressFill } = useContext(CycleContext)
-  console.log(addressFill)
+
   return (
     <DeliverySection>
 
